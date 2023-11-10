@@ -5,6 +5,7 @@
   flex-direction: column;
   margin: 0.5rem;
   gap: 1rem;
+  color: black;
   border: 1px solid rgb(217, 217, 217);
   background-color: rgb(242, 247, 251);
 }
@@ -13,7 +14,9 @@ h4 {
   gap: 2rem;
   justify-content: flex-start;
   align-items: center;
+  color: black;
 }
 .each p {
+  color: black;
   font-weight: 500;
 }

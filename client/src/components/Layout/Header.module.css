@@ -11,6 +11,7 @@
   background-color: rgb(205, 200, 243, 0.5);
   backdrop-filter: blur(15px);
   padding: 0 2rem;
+  color: black;
 }
 
 .logo {

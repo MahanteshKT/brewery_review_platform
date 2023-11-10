@@ -4,6 +4,7 @@
   height: 90vh;
   margin: 0 auto;
   border-radius: 0.3rem;
+  color: black;
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -18,5 +19,6 @@
   flex-direction: column;
   margin: 0.4rem 0;
   padding: 1rem;
+  color: black;
   border-radius: 0.3rem;
 }
