@@ -11,7 +11,7 @@ function Header() {
 
     ctx.setUser({ user: "", token: "" });
     ctx.setMessage({ heading: "success", msg: "Logout Successfully" });
-    navigate("/login");
+    navigate("/");
   };
   const ctx = useContext(authContext);
   return (
