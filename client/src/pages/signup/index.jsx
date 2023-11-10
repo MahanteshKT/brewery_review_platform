@@ -86,7 +86,7 @@ function SignupPage() {
         <form className={classes.form} onSubmit={OnSubmitHandler}>
           <h2>SignUp</h2>
           <p>
-            Have an Acount? <NavLink to="/login">Login</NavLink>
+            Have an Acount? <NavLink to="/">Login</NavLink>
           </p>
           <div className={classes.inputs}>
             <Input
