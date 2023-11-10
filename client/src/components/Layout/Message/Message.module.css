@@ -1,0 +1,30 @@
+.Message {
+  position: absolute;
+  top: -10rem;
+  z-index: 50;
+  margin: 2px 1rem;
+
+  backdrop-filter: blur(25px);
+  padding: 1rem 1rem 1rem 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 20rem;
+  justify-content: space-between;
+  border-radius: 0.7rem;
+}
+.visible {
+  top: 5rem;
+}
+.Message h3 {
+  font-size: large;
+}
+
+.success {
+  background-color: rgba(0, 255, 255, 0.8);
+  color: black;
+}
+.error {
+  color: black;
+  background-color: rgb(255, 101, 101);
+}

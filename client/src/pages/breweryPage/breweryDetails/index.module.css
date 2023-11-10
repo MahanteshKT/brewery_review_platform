@@ -1,0 +1,22 @@
+.container {
+  width: 90vw;
+  background-color: azure;
+  height: 90vh;
+  margin: 0 auto;
+  border-radius: 0.3rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  overflow-y: scroll;
+}
+
+.review {
+  background-color: antiquewhite;
+  display: flex;
+  width: 95%;
+  flex-direction: column;
+  margin: 0.4rem 0;
+  padding: 1rem;
+  border-radius: 0.3rem;
+}

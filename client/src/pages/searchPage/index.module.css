@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  min-height: 100vh;
+}
+
+.form {
+  min-width: 20rem;
+  /* margin: 0 auto; */
+  margin-bottom: 2rem;
+  backdrop-filter: blur(10px);
+  background-color: rgba(227, 235, 241, 0.8);
+}
+.breweryContainer {
+  min-width: 90%;
+  margin: 0 auto;
+}
+.form input {
+  border: none;
+  outline: none;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 0.2rem;
+}
+.form input:hover {
+  background-color: rgb(215, 233, 250);
+}

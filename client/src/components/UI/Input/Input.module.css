@@ -1,0 +1,25 @@
+.input {
+  font-size: 17px;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 0.4rem;
+  padding: 0.7rem 0.5rem;
+  outline: none;
+  background-color: rgb(226, 226, 226);
+}
+.input:hover,
+.input:focus {
+  background-color: rgb(199, 199, 199);
+  border: 1px solid gray;
+  transition: 0.5s;
+}
+
+.hide {
+  display: none;
+}
+
+.message {
+  font-size: 13px;
+  color: black;
+}
