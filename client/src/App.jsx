@@ -42,10 +42,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route
-          path="/login"
-          element={ctx.token ? <Profile /> : <LoginPage />}
-        />
+        <Route path="/" element={ctx.token ? <Profile /> : <LoginPage />} />
         <Route
           path="/signup"
           element={ctx.token ? <Profile /> : <SignupPage />}
