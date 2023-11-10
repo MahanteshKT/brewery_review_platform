@@ -73,7 +73,7 @@ function SignupPage() {
     }
     if (Resdata) {
       console.log(Resdata);
-      navigate("/login");
+      navigate("/");
     }
   };
   return (

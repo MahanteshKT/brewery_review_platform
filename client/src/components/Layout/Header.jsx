@@ -22,7 +22,7 @@ function Header() {
           <li>{<NavLink to="/search">Search</NavLink>}</li>
           <li>{ctx.user && <NavLink to="/profile">Profile</NavLink>}</li>
           <li>{!ctx.user && <NavLink to="/signup">Signup</NavLink>}</li>
-          <li>{!ctx.user && <NavLink to="/login">Login</NavLink>}</li>
+          <li>{!ctx.user && <NavLink to="/">Login</NavLink>}</li>
         </ul>
       </nav>
       {ctx.user && (
